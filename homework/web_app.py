@@ -49,13 +49,13 @@ app.layout = dbc.Container([
                     
                     # Pies cuadrados
                     html.Label("Pies Cuadrados Habitables:"),
-                    dcc.Input(id="input-sqft-living", type="number", value=1800.0, step=50, className="form-control mb-3"),
+                    dcc.Input(id="input-sqft-living", type="number", value=1800.0, step='any', className="form-control mb-3"),
                     
                     html.Label("Pies Cuadrados Habitables 15:"),
-                    dcc.Input(id="input-sqft-living15", type="number", value=1750.0, step=50, className="form-control mb-3"),
+                    dcc.Input(id="input-sqft-living15", type="number", value=1750.0, step='any', className="form-control mb-3"),
                     
                     html.Label("Pies Cuadrados sobre el suelo:"),
-                    dcc.Input(id="input-sqft-above", type="number", value=1500.0, step=50, className="form-control mb-3"),
+                    dcc.Input(id="input-sqft-above", type="number", value=1500.0, step='any', className="form-control mb-3"),
                     
                     # Pisos y Grado
                     dbc.Row([
@@ -73,7 +73,7 @@ app.layout = dbc.Container([
                     dbc.Row([
                         dbc.Col([
                             html.Label("Latitud:"),
-                            dcc.Input(id="input-lat", type="number", value=47.5112, step=0.0001, className="form-control mb-3")
+                            dcc.Input(id="input-lat", type="number", value=47.5112, step='any', className="form-control mb-3")
                         ], width=6),
                         dbc.Col([
                             html.Label("Vista al Mar:"),
