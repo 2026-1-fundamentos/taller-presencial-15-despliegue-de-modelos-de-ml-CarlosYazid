@@ -11,4 +11,4 @@ def test_01():
     assert os.path.exists("homework/api_client.py")
     assert os.path.exists("homework/api_server.py")
     assert os.path.exists("homework/descriptivo.ipynb")
-    assert os.path.exists("homework/house_predictor.pkl")
+    assert os.path.exists("homework/house_predictor.onnx")

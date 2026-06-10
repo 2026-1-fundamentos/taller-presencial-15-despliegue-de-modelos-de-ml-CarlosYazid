@@ -8,9 +8,18 @@ setup(
     packages=find_packages(),
     install_requires=[
         "pytest",
-        "flask",
+        "fastapi",
+        "uvicorn",
         "pandas",
         "scikit-learn",
+        "fg-data-profiling",
+        "skl2onnx",
+        "onnxruntime",
+        "pydantic",
         "requests",
+        "dash",
+        "dash-bootstrap-components",
+        "ipykernel",
+        "ipywidgets"
     ],
 )
